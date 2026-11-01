@@ -1,10 +1,10 @@
 {
   "name": "Hermes Enterprise Apps",
+  "identifier": "com.hermes.enterprise",
   "subtitle": "The source for Hermes Enterprise Apps",
-  "description": "We will soon be renamed to something different, but its in development, so wait for it.",
+  "description": "We will soon be renamed to something different, but it is in development, so wait for it.",
   "iconURL": "https://i.imgur.com/d0lrpe9.jpeg",
-  "website": "",
-  "patreonURL": "",
+  "website": "https://ubuntu-server.tailcc956c.ts.net",
   "tintColor": "#a7aa00",
   "featuredApps": [
     "com.gloop.deltamobile"
@@ -13,23 +13,23 @@
     {
       "name": "Delta",
       "bundleIdentifier": "com.gloop.deltamobile",
-      "marketplaceID": "",
       "developerName": "Delta Dynamics",
       "subtitle": "Delta Executor",
       "localizedDescription": "Delta is a revolutionary new way to experience the world of scripting with its extensive library of features that will make your life easier.",
       "iconURL": "https://i.imgur.com/zTedCL0.png",
       "tintColor": "#345cfc",
       "category": "games",
-      "screenshots": [],
+      "screenshots": {
+        "iphone": []
+      },
       "versions": [
         {
-          "downloadURL": "https://cdn.glopdelivery.com/file/Delta-2.743.1136.ipa",
-          "size": 149400000,
           "version": "2.743.1136",
-          "buildVersion": null,
           "date": "2026-11-01T04:00:00-04:00",
           "localizedDescription": "Initial upload.",
-          "minOSVersion": null
+          "downloadURL": "https://cdn.glopdelivery.com/file/Delta-2.743.1136.ipa",
+          "size": 149400000,
+          "minOSVersion": "14.0"
         }
       ],
       "appPermissions": {
@@ -37,7 +37,7 @@
         "privacy": {
           "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
           "NSCameraUsageDescription": "Roblox uses your camera to check your age, animate your avatar, and scan QR codes.",
-          "NSContactsUsageDescription": "Connect with friends on Roblox. Your contacts will be regularly synced and matches with other Roblox users will be stored to help you find friends. You can manage this any time in settings.",
+          "NSContactsUsageDescription": "Connect with friends on Roblox. Your contacts will be regularly synced and matches with other Roblox users will be stored to help you find friends.",
           "NSHumanReadableCopyright": "2014 ROBLOX Inc.",
           "NSLocalNetworkUsageDescription": "Roblox needs access to local networks to connect to players around you.",
           "NSLocationWhenInUseUsageDescription": "Roblox needs access to your location to improve your user experience",
@@ -46,8 +46,7 @@
           "NSPhotoLibraryAddUsageDescription": "Allow Roblox to access your photo library so you can save images and videos to your device's camera roll.",
           "NSPhotoLibraryUsageDescription": "Roblox needs access to your photos to enhance your play experience."
         }
-      },
-      "patreon": {}
+      }
     }
   ],
   "news": [
@@ -55,12 +54,10 @@
       "title": "Hermes Enterprise Apps released.",
       "identifier": "news_mxwmfmx739",
       "caption": "The first step in our journey.",
-      "date": "2026-11-01T00:00",
+      "date": "2026-11-01T00:00:00Z",
       "tintColor": "#a7aa00",
       "imageURL": "https://i.imgur.com/iC8nfGK.jpeg",
-      "notify": false,
-      "url": "",
-      "appID": null
+      "notify": false
     }
   ]
 }
