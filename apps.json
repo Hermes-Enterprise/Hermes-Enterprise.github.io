@@ -13,10 +13,11 @@
     {
       "name": "Delta",
       "bundleIdentifier": "com.gloop.deltamobile",
+      "marketplaceID": "",
       "developerName": "Delta Dynamics",
       "subtitle": "Delta Executor",
       "localizedDescription": "Delta is a revolutionary new way to experience the world of scripting with its extensive library of features that will make your life easier. https://deltaexploits.gg/delta-executor-ios",
-      "iconURL": "https://i.imgur.com/zTedCL0.png",
+      "iconURL": "https://i.imgur.com/d5j0m4d.png",
       "tintColor": "#345cfc",
       "category": "games",
       "screenshots": {
@@ -24,11 +25,21 @@
       },
       "versions": [
         {
+          "downloadURL": "https://cdn.glopdelivery.com/file/Delta-2.747.1486.ipa",
+          "size": 151000000,
+          "version": "2.747.1486",
+          "buildVersion": null,
+          "date": "2026-11-17T21:50:00-05:00",
+          "localizedDescription": "+ Updated to 2.747.1486\n+ Still Undetected\n+ Performance Upgrades\n+ Bug Fixes",
+          "minOSVersion": null
+        },
+        {
           "version": "2.743.1136",
           "date": "2026-11-01T04:00:00-04:00",
           "localizedDescription": "Initial upload.",
           "downloadURL": "https://cdn.glopdelivery.com/file/Delta-2.743.1136.ipa",
           "size": 149400000,
+          "buildVersion": null,
           "minOSVersion": "14.0"
         }
       ],
@@ -37,7 +48,7 @@
         "privacy": {
           "NSAdvertisingAttributionReportEndpoint": "https://appsflyer-skadnetwork.com/",
           "NSCameraUsageDescription": "Roblox uses your camera to check your age, animate your avatar, and scan QR codes.",
-          "NSContactsUsageDescription": "Connect with friends on Roblox. Your contacts will be regularly synced and matches with other Roblox users will be stored to help you find friends.",
+          "NSContactsUsageDescription": "Connect with friends on Roblox. Your contacts will be regularly synced and matches with other Roblox users will be stored to help you find friends. You can manage this any time in settings.",
           "NSHumanReadableCopyright": "2014 ROBLOX Inc.",
           "NSLocalNetworkUsageDescription": "Roblox needs access to local networks to connect to players around you.",
           "NSLocationWhenInUseUsageDescription": "Roblox needs access to your location to improve your user experience",
@@ -46,18 +57,32 @@
           "NSPhotoLibraryAddUsageDescription": "Allow Roblox to access your photo library so you can save images and videos to your device's camera roll.",
           "NSPhotoLibraryUsageDescription": "Roblox needs access to your photos to enhance your play experience."
         }
-      }
+      },
+      "patreon": {}
     }
   ],
   "news": [
     {
+      "title": "Delta Updated",
+      "identifier": "news_9wco5x5wb5",
+      "caption": "Updated to 2.747.1486",
+      "date": "2026-11-16T20:12",
+      "tintColor": "#345cfc",
+      "imageURL": "",
+      "notify": true,
+      "url": "https://example.com/new_feature_details",
+      "appID": "com.gloop.deltamobile"
+    },
+    {
       "title": "Hermes Enterprise Apps released.",
       "identifier": "news_mxwmfmx739",
       "caption": "The first step in our journey.",
-      "date": "2026-11-01T00:00:00Z",
+      "date": "2026-10-31T20:00",
       "tintColor": "#a7aa00",
       "imageURL": "https://i.imgur.com/iC8nfGK.jpeg",
-      "notify": false
+      "notify": false,
+      "url": "https://example.com/new_feature_details",
+      "appID": null
     }
   ]
 }
